@@ -1,7 +1,7 @@
 # forbiddenfluent
 
 This module adds the built-in functions that work on iterables and make them
-into methods in order to support a fluent programming style.  It uses the
+into methods in order to support a [fluent](https://en.wikipedia.org/wiki/Fluent_interface) programming style.  It uses the
 package [forbiddenfruit](https://pypi.org/project/forbiddenfruit/) to do so, thus
 the name.  The package is intended as a classroom teaching tool and talk tool,
 so likely won't be expanded much.  If you like this, see [fluentpy](https://pypi.org/project/fluentpy/)
