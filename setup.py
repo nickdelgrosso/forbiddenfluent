@@ -3,7 +3,7 @@ from pathlib import Path
 
 setup(
     name='forbiddenfluent',
-    version='0.1',
+    version='0.1.1',
     url="https://github.com/nickdelgrosso/forbiddenfluent",
     author="Nicholas A. Del Grosso",
     author_email="delgrosso.nick@gmail.com",
@@ -11,6 +11,7 @@ setup(
     long_description=Path("README.md").read_text(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
+    install_requires=["forbiddenfruit>=0.1.3"],
     license='GNU General Public License, Version 3',
     classifiers=[
         "Programming Language :: Python :: 3",
