@@ -8,7 +8,8 @@ setup(
     author="Nicholas A. Del Grosso",
     author_email="delgrosso.nick@gmail.com",
     description="Adds iteration methods like zip, filter, apply to built-in Python collections in a fluent programming style.",
-    #long_description="This module adds the built-in functions that work on iterables and make them into methods in order to support a fluent programming style.",
+    long_description=Path("README.md").read_text(),
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     license='GNU General Public License, Version 3',
     classifiers=[
